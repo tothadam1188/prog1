@@ -73,10 +73,10 @@ int main()
     Coordinates movement;
     cout << "Please input the ball's movement direction (N - E - S - W and combinations)"<<endl;
     cin >> directionString;
-    if(directionString.find('N')!=string::npos) movement.y = 1;
-    if(directionString.find('S')!=string::npos) movement.y = -1;
-    if(directionString.find('E')!=string::npos) movement.x = 1;
-    if(directionString.find('W')!=string::npos) movement.x = -1;
+    if(directionString.find('N')!=string::npos || directionString.find('n')!=string::npos) movement.y = 1;
+    if(directionString.find('S')!=string::npos || directionString.find('s')!=string::npos) movement.y = -1;
+    if(directionString.find('E')!=string::npos || directionString.find('e')!=string::npos) movement.x = 1;
+    if(directionString.find('W')!=string::npos || directionString.find('w')!=string::npos) movement.x = -1;
     system("CLS");
     while(true)
     {
