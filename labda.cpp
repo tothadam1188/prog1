@@ -1,4 +1,5 @@
-//Compatible with Windows and Linux-based systems
+//Készítette Tóth Ádám
+//Windows és Linux-alapú rendszerekkel kompatibilis
 #include <iostream>
 #include <unistd.h>
 
