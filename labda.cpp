@@ -1,5 +1,5 @@
+//Compatible with Windows and Linux-based systems
 #include <iostream>
-#include <windows.h>
 #include <unistd.h>
 
 using namespace std;
@@ -11,10 +11,7 @@ struct Coordinates
 
 void ClearScreen()
 {
-    COORD cursorPosition;
-    cursorPosition.X = 0;
-    cursorPosition.Y = 0;
-    SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cursorPosition);
+    cout << "\033[2J\033[1;1H";
 }
 
 void Movement(Coordinates &pos, Coordinates &dir)
