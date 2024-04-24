@@ -1,0 +1,8 @@
+1 Tej Kenyer
+2 Csoki Csipsz
+3 Tej
+4 Tej Csipsz
+5 Tej Csoki Tej
+6 Kenyer Csipsz Csoki
+7 Csoki Tej Csipsz Kenyer
+8 Tej
