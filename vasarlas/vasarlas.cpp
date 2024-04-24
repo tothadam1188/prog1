@@ -10,14 +10,6 @@
 
 using namespace std;
 
-void print_vector(const vector<string>& array) {
-    for (const string item : array)
-    {
-        cout << item << " ";
-    }
-    cout << endl;
-}
-
 void Combination(vector<string> a, int reqLen, int start, int currLen, vector<bool> check, int len, map<string, int>& comb)
 {
     if (currLen > reqLen)
